@@ -390,13 +390,20 @@ h4 {
 .footer .container {
   display: flex;
   align-items: baseline;
-
 }
 .footer .footer-description {
   max-width: 264px;
   margin-right: 120px;
 }
-.footer-social-media{
+.footer-description .body-text-footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.footer-social-media {
   margin-right: 80px;
 }
 
@@ -471,7 +478,7 @@ h4 {
   color: #fff;
   cursor: pointer;
 }
-.icon-arrow{
+.icon-arrow {
   margin-left: 16px;
 }
 /* modal */
