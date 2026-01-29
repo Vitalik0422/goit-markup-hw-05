@@ -390,12 +390,14 @@ h4 {
 .footer .container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
-  padding: 0 15px;
+
 }
 .footer .footer-description {
   max-width: 264px;
   margin-right: 120px;
+}
+.footer-social-media{
+  margin-right: 80px;
 }
 
 .footer-social-media .body-text-footer {
@@ -476,6 +478,7 @@ h4 {
 .is-active {
   opacity: 0;
   visibility: none;
+  pointer-events: none;
 }
 .modal-overlay {
   position: fixed;
