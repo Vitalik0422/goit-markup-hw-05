@@ -437,8 +437,12 @@ h4 {
   align-items: center;
 }
 .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   padding: 24px;
   background-color: #fcfcfc;
   display: flex;
@@ -449,16 +453,21 @@ h4 {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.exit-btn-container {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
+
 .exit-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
 }
 .modal-title {
   font-weight: 500;
@@ -540,4 +549,5 @@ h4 {
   text-align: center;
   font-weight: 500;
   font-size: 16px;
+  cursor: pointer;
 }
