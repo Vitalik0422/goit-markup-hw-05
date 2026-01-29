@@ -438,7 +438,7 @@
             <div class="input-container">
               <input
                 type="text"
-                class="input-name"
+                class="modal-input"
                 name="user-name"
                 id="user-name"
               />
@@ -452,7 +452,7 @@
             <div class="input-container">
               <input
                 type="text"
-                class="input-phone"
+                class="modal-input"
                 name="user-phone"
                 id="user-phone"
               />
@@ -466,7 +466,7 @@
             <div class="input-container">
               <input
                 type="text"
-                class="input-email"
+                class="modal-input"
                 name="user-email"
                 id="user-email"
               />
@@ -475,7 +475,7 @@
               </svg>
             </div>
           </div>
-          <div>
+          <div class="textarea-container">
             <label class="label-input" for="user-comment"> Comment </label>
             <textarea
               class="textarea-comment"
@@ -484,7 +484,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div>
+          <div class="checkbox-container">
             <input
               type="checkbox"
               class="input-checkbox visually-hidden"
@@ -499,11 +499,10 @@
                 </svg>
               </span>
               I accept the terms and conditions of the
+              <a class="link-privacy" href="">Privacy Policy</a>
             </label>
           </div>
-          <div class="submit-btn-container">
-            <button type="submit" class="btn-submit">Send</button>
-          </div>
+          <button type="submit" class="btn-submit">Send</button>
         </form>
       </div>
     </div>
